@@ -3,6 +3,8 @@ import { HomeComponent } from "./home/home.component";
 import { DetailsComponent } from "./details/details.component";
 import { HotelComponent } from "./hotel/hotel.component";
 import { FormComponent } from "./form/form.component";
+import { LoginComponent } from "./login/login.component";
+import { RegisterComponent } from "./register/register.component";
 
 const routeConfig : Routes = [
     {
@@ -24,6 +26,16 @@ const routeConfig : Routes = [
         path: 'form/:id',
         component: FormComponent,
         title: 'Form Page',
+    },
+    {
+        path: 'login',
+        component: LoginComponent,
+        title: 'Login Page',
+    },
+    {
+        path: 'register',
+        component: RegisterComponent,
+        title: 'register Page',
     },
 ];
 
