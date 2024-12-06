@@ -27,6 +27,8 @@ import { RouterModule } from '@angular/router';
                   <i class="fa-solid fa-hotel"></i> HOTEL
                 </a>
               </li>
+              <li routerLinkActive="active"><a class="dropdown-item" routerLink="/login" >Login</a></li>
+              
             </ul>
 
             <!-- Currency -->
@@ -36,6 +38,7 @@ import { RouterModule } from '@angular/router';
               </a>
               <ul class="dropdown-menu text-small">
                 <li><a class="dropdown-item" href="#">THB</a></li>
+                
               </ul>
             </div>
           </div>
